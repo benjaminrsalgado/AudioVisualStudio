@@ -1,28 +1,35 @@
 header{
     display: flex;
-    justify-content: space-around;
-    background-color: #2c3e50;
+    justify-content: space-between;
+    background-color: #353b48;
     font-family: 'Aboreto', cursive;
-    font-size: large;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 12px;
+    margin-top: 13px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
     gap: 30px;
+    margin-right: 12px;
 }
 
 li{
     font-size: 19px;
+    color: white;
 }
 
 .second{
     display: flex;
     justify-content: center;
-    background-color: #2c3e50;
+    background-color:#353b48;
     font-size: 37px;
     text-align: center;
-    margin-top: 50px;
+    margin: 18px;
+    color: white;
 }
 
 .child{
@@ -30,25 +37,29 @@ li{
     justify-content: center;
     flex-direction: column;
     margin: 0px;
+    color: white;
 }
 
 img{
     height: 300px;
-    width: 250px;
-    margin: 20px;
+    width: 200px;
+    margin: 30px;
     border: 2px solid black;
+    align-self: center;
 }
 
 .first{
     height: 400px;
     width: 700px;
-    margin: 10px;
+    margin-left: 60px;
 }
 
 .tercero{
     display: flex;
     justify-content: center;
-    background-color: #2c3e50;
+    background-color: #353b48;
+    margin:20px;
+    margin-top: 10px;
 }
 
 div{
@@ -56,13 +67,15 @@ div{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin: 10px;
+    color: white;
 }
 
 .last{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color:#2c3e50;
+    background-color:#353b48;
     line-height: 20px;
     text-align: center;
     margin-top: 70px;
@@ -73,32 +86,35 @@ div{
     justify-items: center;
     width: 900px;
     height: 500px;
-    margin-left: 150px;
+    margin-left: 30px;
 }
 
 .max{
-    background-color: #2c3e50;
+    background-color: #353b48;
     margin: 30px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .problem{
     margin: 0px;
     font-family: 'Aboreto', cursive;
+    color: white;
 }
 
 body{
-    background-color: 2c3e50;
+    background-color: #353b48;
 }
 
 p{
     text-align: center;
     font-size: 20px;
+    color: white;
 }
 
 footer{
-    background-color: #34495e;
+    background-color: #2f3640;
     margin-top: 70px;
+
 }
 footer  p{
 text-align: center;
